@@ -1,0 +1,27 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >-->
+
+<!--<mapper namespace="com.alpha.mapper.DeptMapper">-->
+<!--    <resultMap id="deptMap" type="com.alpha.model.Dept">-->
+<!--        <id property="id" column="id" />-->
+<!--        <result property="name" column="name"/>-->
+<!--    </resultMap>-->
+<!--    <select id="selectAllDept" resultType="com.alpha.model.Dept">-->
+<!--         SELECT * FROM dept-->
+<!--    </select>-->
+<!--    <insert id="createDept" parameterType="com.alpha.model.Dept">-->
+<!--        INSERT INTO dept VALUES (#{id},#{name},#{code})-->
+<!--    </insert>-->
+<!--&lt;!&ndash;    <select id="selectAllDept" resultType="com.alpha.model.Dept">&ndash;&gt;-->
+<!--&lt;!&ndash;         SELECT * FROM dept&ndash;&gt;-->
+<!--&lt;!&ndash;    </select>&ndash;&gt;-->
+<!--    <update id="updateDept" parameterType="java.util.Map">-->
+<!--        UPDATE dept SET name = #{name} WHERE id=#{id}-->
+<!--    </update>-->
+<!--&lt;!&ndash;    <select id="selectAllDept" resultType="com.alpha.model.Dept">&ndash;&gt;-->
+<!--&lt;!&ndash;         SELECT * FROM dept&ndash;&gt;-->
+<!--&lt;!&ndash;    </select>&ndash;&gt;-->
+<!--    <select id="selectDept" resultType="com.alpha.model.Dept" parameterType="java.lang.String">-->
+<!--        SELECT * FROM dept WHERE id=#{id}-->
+<!--    </select>-->
+<!--</mapper>-->

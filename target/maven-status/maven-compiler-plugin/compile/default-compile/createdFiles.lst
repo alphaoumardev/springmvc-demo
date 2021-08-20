@@ -1,0 +1,5 @@
+com\alpha\service\implem\DeptServiceImp.class
+com\alpha\mapper\DeptMapper.class
+com\alpha\controller\DeptController.class
+com\alpha\model\Dept.class
+com\alpha\service\DeptService.class
